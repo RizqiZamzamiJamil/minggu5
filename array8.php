@@ -14,12 +14,12 @@
                 "Ana" => "17"
             );
         asort($age);
-
+        
         foreach($age as $name => $value){
             echo "name = " . $name . ", age = " . $value . "<br>";
         }
-
-        echo "rsort<br>";
+        echo "<br>";
+        echo "Menggunakan rsort<br>";
         $age = array(
             "Joe" => "29",
             "Elsa" => "27",
@@ -32,8 +32,8 @@
         foreach($age as $name => $value){
             echo "name = " . $name . ", age = " . $value . "<br>";
         }
-
-        echo "ksort<br>";
+        echo "<br>";
+        echo "Menggunakan ksort<br>";
         $age = array(
             "Joe" => "29",
             "Elsa" => "27",
@@ -46,8 +46,8 @@
         foreach($age as $name => $value){
             echo "name = " . $name . ", age = " . $value . "<br>";
         }
-
-        echo "arsort<br>";
+        echo "<br>";
+        echo "Menggunakan arsort<br>";
         $age = array(
             "Joe" => "29",
             "Elsa" => "27",
@@ -60,8 +60,8 @@
         foreach($age as $name => $value){
             echo "name = " . $name . ", age = " . $value . "<br>";
         }
-
-        echo "krsort<br>";
+        echo "<br>";
+        echo "Menggunakan krsort<br>";
         $age = array(
             "Joe" => "29",
             "Elsa" => "27",
